@@ -1,0 +1,656 @@
+{
+  "timestamp": "2026-06-28T08:55:18Z",
+  "summary": {
+    "total": 128,
+    "passed": 73,
+    "failed": 34,
+    "skipped": 21,
+    "duration_seconds": 54
+  },
+  "environment": {
+    "rust_grep_version": "0.1.0",
+    "gnu_testsuite_dir": "/home/runner/work/grep/grep/gnu.grep/tests"
+  },
+  "tests": [
+    {
+      "name": "100k-entries",
+      "status": "SKIP",
+      "error": "100k-entries: skipped test: expensive: disabled by default\nThis test is relatively expensive, so it is disabled by default.\nTo run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS\nenvironment variable set to yes.  E.g.,\n\n  env RUN_EXPENSIVE_TESTS=yes make check\n\nor use the shortcut target of the toplevel Makefile,\n\n  make check-expensive\n\n100k-entries: skipped test: expensive: disabled by default"
+    },
+    {
+      "name": "backref",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "backref-alt",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "backref-multibyte-slow",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "backref-word",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "backslash-dot",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "backslash-s-and-repetition-operators",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "backslash-s-vs-invalid-multibyte",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "big-hole",
+      "status": "SKIP",
+      "error": "big-hole: skipped test: expensive: disabled by default\nThis test is relatively expensive, so it is disabled by default.\nTo run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS\nenvironment variable set to yes.  E.g.,\n\n  env RUN_EXPENSIVE_TESTS=yes make check\n\nor use the shortcut target of the toplevel Makefile,\n\n  make check-expensive\n\nbig-hole: skipped test: expensive: disabled by default"
+    },
+    {
+      "name": "big-match",
+      "status": "SKIP",
+      "error": "big-match: skipped test: expensive: disabled by default\nThis test is relatively expensive, so it is disabled by default.\nTo run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS\nenvironment variable set to yes.  E.g.,\n\n  env RUN_EXPENSIVE_TESTS=yes make check\n\nor use the shortcut target of the toplevel Makefile,\n\n  make check-expensive\n\nbig-match: skipped test: expensive: disabled by default"
+    },
+    {
+      "name": "binary-file-matches",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "bogus-wctob",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "bre",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "c-locale",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "case-fold-backref",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "case-fold-backslash-w",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "case-fold-char-class",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "case-fold-char-range",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "case-fold-char-type",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "case-fold-titlecase",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "char-class-multibyte",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "char-class-multibyte2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "color-colors",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "context-0",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "count-newline",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dfa-coverage",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dfa-heap-overrun",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dfa-infloop",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dfa-invalid-utf8",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "dfaexec-multibyte",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "empty",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "empty-line",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "empty-line-mb",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "encoding-error",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "epipe",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "equiv-classes",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "ere",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "euc-mb",
+      "status": "SKIP",
+      "error": "é\neuc-mb: skipped test: EUC-JP locale not found\neuc-mb: skipped test: EUC-JP locale not found"
+    },
+    {
+      "name": "false-match-mb-non-utf8",
+      "status": "SKIP",
+      "error": "false-match-mb-non-utf8: skipped test: no support for the zh_CN.gb18030 locale\nfalse-match-mb-non-utf8: skipped test: no support for the zh_CN.gb18030 locale"
+    },
+    {
+      "name": "fedora",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fgrep-infloop",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fgrep-longest",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "file",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "filename-lineno.pl",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "fillbuf-long-line",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fmbtest",
+      "status": "SKIP",
+      "error": "fmbtest: skipped test: this system lacks the cs_CZ.UTF-8 locale\nfmbtest: skipped test: this system lacks the cs_CZ.UTF-8 locale"
+    },
+    {
+      "name": "foad1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "glibc-infloop",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "grep-dev-null",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "grep-dev-null-out",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "grep-dir",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "hangul-syllable",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "hash-collision-perf",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "help-version",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "high-bit-range",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "in-eq-out-infloop",
+      "status": "FAIL",
+      "error": "Test timed out after 30s"
+    },
+    {
+      "name": "include-exclude",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "inconsistent-range",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "initial-tab",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "invalid-multibyte-infloop",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "khadafy",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "kwset-abuse",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "long-line-vs-2GiB-read",
+      "status": "SKIP",
+      "error": "long-line-vs-2GiB-read: skipped test: expensive: disabled by default\nThis test is relatively expensive, so it is disabled by default.\nTo run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS\nenvironment variable set to yes.  E.g.,\n\n  env RUN_EXPENSIVE_TESTS=yes make check\n\nor use the shortcut target of the toplevel Makefile,\n\n  make check-expensive\n\nlong-line-vs-2GiB-read: skipped test: expensive: disabled by default"
+    },
+    {
+      "name": "long-pattern-perf",
+      "status": "SKIP",
+      "error": "long-pattern-perf: skipped test: expensive: disabled by default\nThis test is relatively expensive, so it is disabled by default.\nTo run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS\nenvironment variable set to yes.  E.g.,\n\n  env RUN_EXPENSIVE_TESTS=yes make check\n\nor use the shortcut target of the toplevel Makefile,\n\n  make check-expensive\n\nlong-pattern-perf: skipped test: expensive: disabled by default"
+    },
+    {
+      "name": "many-regex-performance",
+      "status": "SKIP",
+      "error": "many-regex-performance: skipped test: expensive: disabled by default\nThis test is relatively expensive, so it is disabled by default.\nTo run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS\nenvironment variable set to yes.  E.g.,\n\n  env RUN_EXPENSIVE_TESTS=yes make check\n\nor use the shortcut target of the toplevel Makefile,\n\n  make check-expensive\n\nmany-regex-performance: skipped test: expensive: disabled by default"
+    },
+    {
+      "name": "match-lines",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "max-count-overread",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "max-count-vs-context",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "mb-dot-newline",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "mb-non-UTF8-overrun",
+      "status": "SKIP",
+      "error": "mb-non-UTF8-overrun: skipped test: ja_JP.eucJP locale not found\nmb-non-UTF8-overrun: skipped test: ja_JP.eucJP locale not found"
+    },
+    {
+      "name": "mb-non-UTF8-perf-Fw",
+      "status": "SKIP",
+      "error": "mb-non-UTF8-perf-Fw: skipped test: ja_JP.eucJP locale not found\nmb-non-UTF8-perf-Fw: skipped test: ja_JP.eucJP locale not found"
+    },
+    {
+      "name": "mb-non-UTF8-performance",
+      "status": "SKIP",
+      "error": "mb-non-UTF8-performance: skipped test: expensive: disabled by default\nThis test is relatively expensive, so it is disabled by default.\nTo run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS\nenvironment variable set to yes.  E.g.,\n\n  env RUN_EXPENSIVE_TESTS=yes make check\n\nor use the shortcut target of the toplevel Makefile,\n\n  make check-expensive\n\nmb-non-UTF8-performance: skipped test: expensive: disabled by default"
+    },
+    {
+      "name": "mb-non-UTF8-word-boundary",
+      "status": "SKIP",
+      "error": "mb-non-UTF8-word-boundary: skipped test: ja_JP.eucJP locale not found\nmb-non-UTF8-word-boundary: skipped test: ja_JP.eucJP locale not found"
+    },
+    {
+      "name": "multibyte-white-space",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "multiple-begin-or-end-line",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "null-byte",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "options",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "pcre-abort",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "pcre-ascii-digits",
+      "status": "SKIP",
+      "error": "á\npcre-ascii-digits: skipped test: PCRE unicode support is compiled out\npcre-ascii-digits: skipped test: PCRE unicode support is compiled out"
+    },
+    {
+      "name": "pcre-context",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre-count",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre-infloop",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre-invalid-utf8-infloop",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre-invalid-utf8-input",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre-jitstack",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre-o",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre-utf8",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "pcre-utf8-bug224",
+      "status": "SKIP",
+      "error": "á\npcre-utf8-bug224: skipped test: PCRE unicode support is compiled out\npcre-utf8-bug224: skipped test: PCRE unicode support is compiled out"
+    },
+    {
+      "name": "pcre-utf8-w",
+      "status": "SKIP",
+      "error": "á\npcre-utf8-w: skipped test: PCRE unicode support is compiled out\npcre-utf8-w: skipped test: PCRE unicode support is compiled out"
+    },
+    {
+      "name": "pcre-w",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pcre-wx-backref",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "pcre-z",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "posix-bracket",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "prefix-of-multibyte",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "proc",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "r-dot",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "repetition-overflow",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "reversed-range-endpoints",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "sjis-mb",
+      "status": "SKIP",
+      "error": "é\nsjis-mb: skipped test: SJIS locale not found\nsjis-mb: skipped test: SJIS locale not found"
+    },
+    {
+      "name": "skip-device",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "skip-read",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "spencer1",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "spencer1-locale",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "stack-overflow",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "status",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "surrogate-pair",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "surrogate-search",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "symlink",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "triple-backref",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "turkish-I",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "turkish-I-without-dot",
+      "status": "SKIP",
+      "error": "turkish-I-without-dot: skipped test: tr_TR.UTF-8 locale not found\nturkish-I-without-dot: skipped test: tr_TR.UTF-8 locale not found"
+    },
+    {
+      "name": "turkish-eyes",
+      "status": "SKIP",
+      "error": "é\nturkish-eyes: skipped test: your tr_TR.UTF-8 locale appears to be broken\nturkish-eyes: skipped test: your tr_TR.UTF-8 locale appears to be broken"
+    },
+    {
+      "name": "two-chars",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "two-files",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "unibyte-binary",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "unibyte-bracket-expr",
+      "status": "SKIP",
+      "error": "unibyte-bracket-expr: skipped test: ru_RU.KOI8-R locale not found\nunibyte-bracket-expr: skipped test: ru_RU.KOI8-R locale not found"
+    },
+    {
+      "name": "unibyte-negated-circumflex",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "utf8-bracket",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "version-pcre",
+      "status": "SKIP",
+      "error": "version-pcre: skipped test: built without PCRE support\nversion-pcre: skipped test: built without PCRE support"
+    },
+    {
+      "name": "warn-char-classes",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "word-delim-multibyte",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "word-multi-file",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "word-multibyte",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "write-error-msg",
+      "status": "FAIL",
+      "error": "Exit code: 99"
+    },
+    {
+      "name": "y2038-vs-32-bit",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "yesno",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "z-anchor-newline",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    }
+  ]
+}
