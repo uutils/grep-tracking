@@ -1,5 +1,7 @@
 # Various tracking tools for grep
 
+[![CI](https://github.com/uutils/grep-tracking/actions/workflows/gnu-data.yml/badge.svg)](https://github.com/uutils/grep-tracking/actions/workflows/gnu-data.yml)
+
 Tracking the evolution of https://github.com/uutils/grep
 
 ## GNU testsuite comparison
