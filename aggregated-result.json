@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-28T12:22:05Z",
+  "timestamp": "2026-07-20T15:03:15Z",
   "summary": {
     "total": 128,
-    "passed": 73,
-    "failed": 34,
+    "passed": 74,
+    "failed": 33,
     "skipped": 21,
-    "duration_seconds": 54
+    "duration_seconds": 55
   },
   "environment": {
     "rust_grep_version": "0.1.0",
@@ -124,8 +124,8 @@
     },
     {
       "name": "color-colors",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "context-0",
