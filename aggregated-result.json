@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-20T15:03:15Z",
+  "timestamp": "2026-07-20T17:21:44Z",
   "summary": {
     "total": 128,
-    "passed": 74,
-    "failed": 33,
+    "passed": 75,
+    "failed": 32,
     "skipped": 21,
-    "duration_seconds": 55
+    "duration_seconds": 54
   },
   "environment": {
     "rust_grep_version": "0.1.0",
@@ -504,8 +504,8 @@
     },
     {
       "name": "reversed-range-endpoints",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "sjis-mb",
