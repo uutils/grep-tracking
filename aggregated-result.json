@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-29T11:59:16Z",
+  "timestamp": "2026-08-01T05:14:59Z",
   "summary": {
     "total": 128,
     "passed": 75,
     "failed": 32,
     "skipped": 21,
-    "duration_seconds": 56
+    "duration_seconds": 53
   },
   "environment": {
     "rust_grep_version": "0.1.0",
