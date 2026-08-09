@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-08-07T06:10:11Z",
+  "timestamp": "2026-08-09T00:02:31Z",
   "summary": {
     "total": 128,
-    "passed": 75,
-    "failed": 32,
+    "passed": 78,
+    "failed": 29,
     "skipped": 21,
     "duration_seconds": 55
   },
   "environment": {
-    "rust_grep_version": "0.1.0",
+    "rust_grep_version": "0.2.0",
     "gnu_testsuite_dir": "/home/runner/work/grep/grep/gnu.grep/tests"
   },
   "tests": [
@@ -264,8 +264,8 @@
     },
     {
       "name": "grep-dir",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "hangul-syllable",
@@ -344,8 +344,8 @@
     },
     {
       "name": "max-count-overread",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "max-count-vs-context",
@@ -614,8 +614,8 @@
     },
     {
       "name": "warn-char-classes",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "word-delim-multibyte",
