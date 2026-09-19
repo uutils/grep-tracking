@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-18T07:06:24Z",
+  "timestamp": "2026-09-18T23:41:52Z",
   "summary": {
     "total": 128,
-    "passed": 78,
-    "failed": 29,
-    "skipped": 21,
-    "duration_seconds": 54
+    "passed": 65,
+    "failed": 28,
+    "skipped": 35,
+    "duration_seconds": 31
   },
   "environment": {
     "rust_grep_version": "0.2.0",
@@ -29,8 +29,8 @@
     },
     {
       "name": "backref-multibyte-slow",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "backref-multibyte-slow: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nbackref-multibyte-slow: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "backref-word",
@@ -149,8 +149,8 @@
     },
     {
       "name": "dfa-infloop",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "dfa-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out\ndfa-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "dfa-invalid-utf8",
@@ -164,8 +164,8 @@
     },
     {
       "name": "empty",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "empty: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nempty: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "empty-line",
@@ -214,8 +214,8 @@
     },
     {
       "name": "fgrep-infloop",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "fgrep-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nfgrep-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "fgrep-longest",
@@ -249,8 +249,8 @@
     },
     {
       "name": "glibc-infloop",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "glibc-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nglibc-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "grep-dev-null",
@@ -259,8 +259,8 @@
     },
     {
       "name": "grep-dev-null-out",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "grep-dev-null-out: skipped test: 'timeout 0.01 sleep 0.02' did not time out\ngrep-dev-null-out: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "grep-dir",
@@ -289,8 +289,8 @@
     },
     {
       "name": "in-eq-out-infloop",
-      "status": "FAIL",
-      "error": "Test timed out after 30s"
+      "status": "SKIP",
+      "error": "in-eq-out-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nin-eq-out-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "include-exclude",
@@ -309,8 +309,8 @@
     },
     {
       "name": "invalid-multibyte-infloop",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "é\ninvalid-multibyte-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out\ninvalid-multibyte-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "khadafy",
@@ -344,8 +344,8 @@
     },
     {
       "name": "max-count-overread",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "max-count-overread: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nmax-count-overread: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "max-count-vs-context",
@@ -365,7 +365,7 @@
     {
       "name": "mb-non-UTF8-perf-Fw",
       "status": "SKIP",
-      "error": "mb-non-UTF8-perf-Fw: skipped test: ja_JP.eucJP locale not found\nmb-non-UTF8-perf-Fw: skipped test: ja_JP.eucJP locale not found"
+      "error": "mb-non-UTF8-perf-Fw: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nmb-non-UTF8-perf-Fw: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "mb-non-UTF8-performance",
@@ -424,18 +424,18 @@
     },
     {
       "name": "pcre-infloop",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "pcre-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out\npcre-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "pcre-invalid-utf8-infloop",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "pcre-invalid-utf8-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out\npcre-invalid-utf8-infloop: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "pcre-invalid-utf8-input",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "pcre-invalid-utf8-input: skipped test: 'timeout 0.01 sleep 0.02' did not time out\npcre-invalid-utf8-input: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "pcre-jitstack",
@@ -510,12 +510,12 @@
     {
       "name": "sjis-mb",
       "status": "SKIP",
-      "error": "é\nsjis-mb: skipped test: SJIS locale not found\nsjis-mb: skipped test: SJIS locale not found"
+      "error": "é\nsjis-mb: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nsjis-mb: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "skip-device",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "foo\nfoo\nskip-device: skipped test: 'timeout 0.01 sleep 0.02' did not time out\nskip-device: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "skip-read",
@@ -559,8 +559,8 @@
     },
     {
       "name": "triple-backref",
-      "status": "PASS",
-      "error": ""
+      "status": "SKIP",
+      "error": "triple-backref: skipped test: 'timeout 0.01 sleep 0.02' did not time out\ntriple-backref: skipped test: 'timeout 0.01 sleep 0.02' did not time out"
     },
     {
       "name": "turkish-I",
