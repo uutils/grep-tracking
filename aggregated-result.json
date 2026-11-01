@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-28T15:17:54Z",
+  "timestamp": "2026-11-01T09:55:43Z",
   "summary": {
     "total": 128,
     "passed": 75,
     "failed": 32,
     "skipped": 21,
-    "duration_seconds": 59
+    "duration_seconds": 122
   },
   "environment": {
     "rust_grep_version": "0.2.0",
@@ -290,7 +290,7 @@
     {
       "name": "in-eq-out-infloop",
       "status": "FAIL",
-      "error": "Exit code: 1"
+      "error": "Test timed out after 30s"
     },
     {
       "name": "include-exclude",
