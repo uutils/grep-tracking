@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-17T02:17:35Z",
+  "timestamp": "2026-11-17T19:59:05Z",
   "summary": {
     "total": 128,
     "passed": 75,
     "failed": 32,
     "skipped": 21,
-    "duration_seconds": 134
+    "duration_seconds": 174
   },
   "environment": {
     "rust_grep_version": "0.2.0",
@@ -390,7 +390,7 @@
     {
       "name": "null-byte",
       "status": "FAIL",
-      "error": "Exit code: 1"
+      "error": "Test timed out after 30s"
     },
     {
       "name": "options",
